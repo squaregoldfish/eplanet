@@ -1,0 +1,233 @@
+# Italian translation for E17 skel module.
+# This file is put in the public domain.
+# Massimo Maiurana <maiurana@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Skel\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2010-10-01 20:21+0100\n"
+"PO-Revision-Date: 2009-04-13 18:29+0200\n"
+"Last-Translator: Massimo Maiurana <maiurana@gmail.com>\n"
+"Language-Team: Italiano\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/e_mod_config.c:101
+#, fuzzy
+msgid "EPlanet Configuration"
+msgstr "Configurazione"
+
+#: src/e_mod_config.c:169
+msgid "Update background every"
+msgstr ""
+
+#: src/e_mod_config.c:175
+msgid "Delay first background change for"
+msgstr ""
+
+#: src/e_mod_config.c:182
+msgid "Don't run if system load is greater than"
+msgstr ""
+
+#: src/e_mod_config.c:189
+msgid "Don't run if available RAM is less than"
+msgstr ""
+
+#: src/e_mod_config.c:202
+msgid "Behaviour"
+msgstr ""
+
+#: src/e_mod_config.c:209
+msgid "Target"
+msgstr ""
+
+#: src/e_mod_config.c:220
+msgid "View Type"
+msgstr ""
+
+#: src/e_mod_config.c:223
+msgid "Origin"
+msgstr ""
+
+#: src/e_mod_config.c:228
+msgid "Projection"
+msgstr ""
+
+#: src/e_mod_config.c:242
+msgid "Label"
+msgstr ""
+
+#: src/e_mod_config.c:245
+msgid "Show label"
+msgstr ""
+
+#: src/e_mod_config.c:251
+msgid "Label text:"
+msgstr ""
+
+#: src/e_mod_config.c:258
+msgid "Time:"
+msgstr ""
+
+#: src/e_mod_config.c:262
+msgid "Local"
+msgstr ""
+
+#: src/e_mod_config.c:266
+msgid "GMT"
+msgstr ""
+
+#: src/e_mod_config.c:270
+msgid "Position:"
+msgstr ""
+
+#: src/e_mod_config.c:274
+msgid "Top left"
+msgstr ""
+
+#: src/e_mod_config.c:279
+msgid "Top right"
+msgstr ""
+
+#: src/e_mod_config.c:284
+msgid "Bottom left"
+msgstr ""
+
+#: src/e_mod_config.c:289
+msgid "Bottom right"
+msgstr ""
+
+#: src/e_mod_config.c:294
+msgid "Other"
+msgstr ""
+
+#: src/e_mod_config.c:303
+msgid "Font:"
+msgstr ""
+
+#: src/e_mod_config.c:306
+msgid "Not yet implemented"
+msgstr ""
+
+#: src/e_mod_config.c:314
+msgid "Viewing Position"
+msgstr ""
+
+#: src/e_mod_config.c:319
+msgid "Default (0, 0)"
+msgstr ""
+
+#: src/e_mod_config.c:324
+msgid "Fixed"
+msgstr ""
+
+#: src/e_mod_config.c:329
+msgid "Latitude:"
+msgstr ""
+
+#: src/e_mod_config.c:337
+msgid "Longitude:"
+msgstr ""
+
+#: src/e_mod_config.c:345
+msgid "Random"
+msgstr ""
+
+#: src/e_mod_config.c:355
+msgid "Other Settings"
+msgstr ""
+
+#: src/e_mod_config.c:358
+msgid "Use config file:"
+msgstr ""
+
+#: src/e_mod_config.c:367
+msgid "Other command line parameters:"
+msgstr ""
+
+#: src/e_mod_config.c:378
+msgid "Preview"
+msgstr ""
+
+#: src/e_mod_config.c:382
+msgid "XPlanet"
+msgstr ""
+
+#: src/e_mod_config.c:907
+msgid "OK"
+msgstr ""
+
+#: src/e_mod_main.c:116
+#, fuzzy
+msgid ""
+"EPlanet Module Configuration data needed upgrading. Your old "
+"configuration<br> has been wiped and a new set of defaults initialized. "
+"This<br>will happen regularly during development, so don't report a<br>bug. "
+"This simply means the module needs new configuration<br>data by default for "
+"usable functionality that your old<br>configuration simply lacks. This new "
+"set of defaults will fix<br>that by adding it in. You can re-configure "
+"things now to your<br>liking. Sorry for the inconvenience.<br>"
+msgstr ""
+"I dati di configurazione del modulo Skeleton avevano bisogno di "
+"essere<br>aggiornati. La vostra vecchia configurazione è stata cancellata ed "
+"è<br>stato inizializzato un nuovo set di impostazioni predefinite. "
+"Questo<br>avverrà regolarmente durante lo sviluppo, quindi non riportate bug."
+"<br>Questo significa semplicemente che il modulo ha bisogno di nuovi<br>dati "
+"predefiniti di configurazione per funzionalità mancanti nella<br>vecchia "
+"configurazione. Questo nuovo set sistemerà le cose aggiungendo<br>quei dati. "
+"Potete riconfigurare le cose a vostro piacimento. Ci<br>scusiamo per "
+"l'inconveniente."
+
+#: src/e_mod_main.c:136
+#, fuzzy
+msgid ""
+"Your EPlanet Module configuration is NEWER than the module version. This is "
+"very<br>strange. This should not happen unless you downgraded<br>the module "
+"or copied the configuration from a place where<br>a newer version of the "
+"module was running. This is bad and<br>as a precaution your configuration "
+"has been now restored to<br>defaults. Sorry for the inconvenience.<br>"
+msgstr ""
+"La vostra configurazione del modulo Skeleton è più NUOVA della<br>versione "
+"del modulo. Questo è molto strano. Non dovrebbe succedere a meno<br>che "
+"siate passati ad una vecchia versione del modulo Skeleton o avete<br>copiato "
+"la configurazione di un sistema su cui gira una versione<br>più nuova del "
+"modulo. A scopo precauzionale la vostra<br>configurazione è stata adesso "
+"ripristinata ai valori predefiniti.<br>Ci scusiamo per l'inconveniente."
+
+#: src/e_mod_main.c:154
+msgid ""
+"Your EPlanet Module configuration is DAMAGED.This is bad and<br>as a "
+"precaution your configuration has been now restored to<br>defaults. Sorry "
+"for the inconvenience.<br>"
+msgstr ""
+
+#: src/e_mod_main.c:325
+msgid "EPlanet"
+msgstr ""
+
+#: src/e_mod_main.c:460
+#, fuzzy
+msgid "EPlanet Configuration Updated"
+msgstr "Configurazione di Skeleton aggiornata"
+
+#: src/e_mod_main.c:490
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: src/e_mod_main.c:495
+msgid "Update background now"
+msgstr ""
+
+#~ msgid "Skeleton Module"
+#~ msgstr "Modulo Skeleton"
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "Use Switch 1"
+#~ msgstr "Usa switch 1"
+
+#~ msgid "Skeleton"
+#~ msgstr "Skeleton"
